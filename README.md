@@ -1,12 +1,3 @@
-# Platzi Mongo
-All the code you will write for the platzi-mongo project
-it will be in the db.py file
-
-# Postman
-1. Download and install [Postman] (https://www.getpostman.com/downloads/)
-2. The URI of the Postman collections used for the project is in [Postman-platzi-mongo] (https://www.getpostman.com/collections/ffcbfb5c8d5cd2dc52d2)
-3. Import Collection into Postman [Instructions] (https://learning.getpostman.com/docs/postman/collections/data_formats/#exporting-and-importing-postman-data)
-
 ## Install Anaconda
 The simplest way to run the project is by installing [Anaconda] (https://www.anaconda.com/distribution/).
 

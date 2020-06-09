@@ -1,44 +1,44 @@
 # Platzi Mongo
-Todo el código que escribirás para el proyecto platzi-mongo
-estará en el archivo db.py
+All the code you will write for the platzi-mongo project
+it will be in the db.py file
 
 # Postman
-1. Descargar e instalar [Postman](https://www.getpostman.com/downloads/)
-2. La URI de las colecciones de Postman usada para el proyecto está en [Postman-platzi-mongo](https://www.getpostman.com/collections/ffcbfb5c8d5cd2dc52d2)
-3. Importar colección dentro de Postman [Instrucciones](https://learning.getpostman.com/docs/postman/collections/data_formats/#exporting-and-importing-postman-data)
+1. Download and install [Postman] (https://www.getpostman.com/downloads/)
+2. The URI of the Postman collections used for the project is in [Postman-platzi-mongo] (https://www.getpostman.com/collections/ffcbfb5c8d5cd2dc52d2)
+3. Import Collection into Postman [Instructions] (https://learning.getpostman.com/docs/postman/collections/data_formats/#exporting-and-importing-postman-data)
 
-## Instalar Anaconda 
-La forma más simple de ejecutar el proyecto es instalando [Anaconda](https://www.anaconda.com/distribution/).
+## Install Anaconda
+The simplest way to run the project is by installing [Anaconda] (https://www.anaconda.com/distribution/).
 
-Con Anaconda instalado de manera correcta, navegar hasta el directorio del proyecto
-y ejecutar: 
-```
-# navegar hasta el directorio del proyecto
+With Anaconda installed correctly, navigate to the project directory
+and run:
+`` ''
+# navigate to the project directory
 cd platzi-mongo
-# crear un nuevo ambiente
+# create a new environment
 conda create --name platzi-mongo
-# activar el ambiente 
+# activate the environment
 conda activate platzi-mongo
-# para desactivar el ambiente
+# to disable the environment
 conda deactivate
-```
-Si usas Python frecuentemente y tienes una versión 3.3+ no es necesario que 
-instales Anaconda, crea un ambiente virtual con venv o virtualenv y sigue con 
-el paso de instalar las dependencias.
-## Instalar dependenias del proyecto
-Con el ambiente activado, instalar las dependencias:
-```
+`` ''
+If you use Python frequently and have a 3.3+ version, you don't need to
+Install Anaconda, create a virtual environment with venv or virtualenv and continue with
+the step of installing the dependencies.
+## Install project dependencies
+With the environment activated, install the dependencies:
+`` ''
 pip install -r requirements.txt
-```
-## Variables de entorno necesarias para ejecutar el proyecto
-Asegurate de reemplazar el valor de PLATZI_DB_URI por la URI de tu cluster en MongoDB Atlas
-```
-export FLASK_APP=platzi-api
-export FLASK_ENV=development 
-export PLATZI_DB_URI="MONGO-URI"
-```
+`` ''
+## Environment variables necessary to run the project
+Make sure to replace the value of PLATZI_DB_URI with the URI of your cluster in MongoDB Atlas
+`` ''
+export FLASK_APP = platzi-api
+export FLASK_ENV = development
+export PLATZI_DB_URI = "MONGO-URI"
+`` ''
 
-## Iniciar el servidor de platzi-mongo
-```
+## start platzi-mongo server
+`` ''
 flask run
-```
+`` ''
